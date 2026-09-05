@@ -1,27 +1,15 @@
-# 🎓 Sistema de Boletim Escolar & Média 📚
+### 🎓 Calculadora de Média Escolar
 
-> Um programa direto ao ponto desenvolvido em Python para calcular médias de notas e automatizar o resultado acadêmico de forma simples e rápida!
+Programa aprimorado em Python para calcular e analisar a média final de um aluno. 
+Nesta evolução, **o sistema foi expandido para receber e processar quatro notas** (diferente da versão inicial, que calculava apenas três), tornando a avaliação mais completa para um cenário de quatro bimestres.
 
-Ideal para professores que precisam fechar notas, estudantes acompanhando seu próprio desempenho durante o semestre ou como um ótimo exercício prático de lógica escolar. O script faz a matemática e já entrega a situação do aluno mastigada.
+Além do upgrade na quantidade de notas, o programa foi além do cálculo básico: agora ele processa a média exata com arredondamento, classifica a situação acadêmica do estudante (Aprovado, Recuperação ou Reprovado) e entrega um feedback automatizado sobre o nível de desempenho, variando de "Excelente desempenho" até a recomendação para "Estudar mais os fundamentos".
 
----
-
-### ✨ O que o programa faz?
-- 📝 Solicita a inserção de 3 notas de avaliações (podem ser números inteiros ou decimais).
-- 🧮 Calcula a média aritmética somando as notas e dividindo pela quantidade de provas.
-- 🎯 Arredonda o resultado final para duas casas decimais, garantindo um "boletim" limpo e exato.
-- 🚦 Analisa o desempenho e classifica o aluno automaticamente nas seguintes situações:
-  - **Aprovado** 🟢 (Média igual ou superior a 10)
-  - **Recuperação** 🟡 (Média entre 5 e 9.99)
-  - **Reprovado** 🔴 (Média abaixo de 5)
-
----
-
-### 🛠️ Conceitos praticados
-Neste projeto, trabalhamos fortemente com a ordem de precedência matemática e a validação de regras de negócio, utilizando:
-
-- **Entrada e Saída de dados:** Interatividade com `input()` e respostas concatenadas com `print()`.
-- **Conversão de Tipos (Casting):** Uso de `float()` para aceitar notas com casas decimais (ex: 8.5) e `str()` na saída.
-- **Precedência de Operadores:** Uso de parênteses `( )` para garantir que a soma das notas seja executada *antes* da divisão por 3.
-- **Arredondamento:** Uso da função `round(variavel, 2)` para reatribuir o valor da variável de forma formatada.
-- **Estruturas Condicionais Aninhadas:** Blocos lógicos `if`, `elif` e `else` para criar as regras de aprovação escolar.
+**Conceitos praticados:**
+- Entrada de dados com `input()`
+- Conversão de tipos com `float()` e `str()`
+- Variáveis
+- Operadores matemáticos (adição e divisão para cálculo de média)
+- Arredondamento de valores com `round()`
+- Concatenação de strings
+- Múltiplas estruturas condicionais independentes (`if`, `elif` e `else`) para verificação de status e feedback
