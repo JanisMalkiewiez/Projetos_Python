@@ -1,21 +1,39 @@
-# 🐍 # Projetos Python - Engenharia de Automação
+# 🐍 # Projetos Python
 
-Repositório dedicado aos meus estudos, práticas e projetos desenvolvidos com **Python**, como parte da minha formação e preparação para atuar 
-profissionalmente na área de Engenharia de Automação.
+Repositório criado para registrar minha evolução no aprendizado de Python por meio de exercícios, práticas de programação e pequenos projetos.
 
-Os projetos fazem parte de uma trilha de **formação contínua e desenvolvimento profissional**, composta pelos cursos **Logic Master, Django 
-Master, Integration Master e AI Master**, abrangendo desde programação e desenvolvimento de sistemas com o framework Django até conceitos 
-avançados de ** criação e integração de APIs, Inteligência Artificial Generativa, LLMs e agentes inteligentes**.
+Objetivo
 
-### Trilha de formação
+Fortalecer minha base em Python e desenvolver habilidades de:
 
-* ✅ **Logic Master** — Lógica de Programação e Desenvolvimento de Algoritmos com Python - Concluído
-* 🔄 **Django Master** — Em andamento
-* ⏳ **Integration Master APIs** — Próximo alvo
-* ⏳ **AI Master** — Próximo alvo
+- lógica de programação;
+- resolução de problemas;
+- organização de código;
+- criação de scripts;
+- uso de estruturas da linguagem;
+- documentação de projetos;
+- versionamento com Git e GitHub.
 
-O objetivo desta formação é **desenvolver competências de mercado para atuar profissionalmente na área**, utilizando este repositório para 
-aplicar os conhecimentos adquiridos, desenvolver **aplicações reais e escaláveis** e documentar minha evolução ao longo dessa jornada.
+Conteúdos praticados
+
+Os conteúdos deste repositório devem ser atualizados conforme novos estudos forem adicionados. Entre os temas praticados estão:
+
+- variáveis e tipos de dados;
+- operadores;
+- estruturas condicionais;
+- estruturas de repetição;
+
+Organização do repositório
+
+Os arquivos e pastas estão organizados de acordo com os temas e projetos estudados.
+
+Cada prática busca aplicar um conceito específico de Python e contribuir para a construção de uma base sólida em programação.
+
+Como executar
+
+1. Instale o Python em sua máquina.
+2. Clone este repositório:
 
 ---
+
 *Sinta-se à vontade para explorar os códigos. O repositório está em constante evolução!*
