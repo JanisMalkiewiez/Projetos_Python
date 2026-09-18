@@ -6,14 +6,14 @@ Este projeto contém exercícios e práticas focados em manipulação de strings
 
 Neste repositório, explorei os seguintes conceitos e ferramentas da linguagem Python:
 
-* **Fatiamento (Slicing):** Inversão de strings utilizando o passo negativo `[::-1]`.
-* **Métodos de Strings:** 
-  * `.count()` e `.find()` para buscar e contar ocorrências de caracteres e palavras.
-  * `.strip()`, `.lower()` e `.title()` para limpeza e padronização (ex: nomes e e-mails).
-  * `.replace()` para remoção de formatações indesejadas (ex: pontos e traços em CPFs e Celulares).
-  * `.split()` e `.join()` para conversão entre strings e listas.
-* **Operações com Listas:** Acesso a itens por índices (`[0]`, `[-1]`) e contagem total de elementos utilizando `len()`.
-* **Estruturas Condicionais e Operadores:** Uso do `if` junto com o operador de associação `in` para validações de regras de negócio (ex: verificar se o tamanho do celular é válido).
+* **Limpeza e Formatação de Strings:** 
+  * Uso de `.strip()`, `.lower()` e `.title()` para sanitização e padronização de entradas (ex: e-mails minúsculos e nomes capitalizados).
+  * Uso de `.replace()` para remoção de caracteres de máscara (ex: retirar pontos e traços de CPFs e Celulares).
+* **Contagem e Validação:** 
+  * Uso da função *built-in* `len()` para verificar a quantidade exata de caracteres.
+* **Controle de Fluxo e Operadores:** 
+  * Estruturas condicionais `if` e `else` para aplicar as regras de negócio de validação.
+  * Operador de associação `in` para verificar múltiplos cenários válidos de forma enxuta (ex: `len(celular) in (10, 11)`).
 
 ## 📂 Estrutura do Projeto
 
